@@ -1,0 +1,16 @@
+[package]
+name = "aptos_basic"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hello_blockchain = "0x3ede07b12286bdef56eb10ecc1d1884abfb875a87a3763eb1f94d434624a64b9"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
